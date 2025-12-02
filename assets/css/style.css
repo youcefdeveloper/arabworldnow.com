@@ -265,3 +265,15 @@ body::before {
         padding: 7px 12px 11px 12px !important;
     }
 }
+
+[lang="en"] * {
+    font-family: 'Hind Madurai', sans-serif !important;
+}
+
+[lang="en"] .lang-toggle {
+    font-family: 'kermes-light', 'Hind Madurai', sans-serif !important;
+}
+
+[lang="ar"] .contact-us {
+    font-family: 'Hind Madurai', sans-serif !important;
+}
