@@ -129,9 +129,10 @@ body::before {
     border: 1px solid #0046FF20;
     background: white;
     cursor: pointer;
-    font-weight: bold;
+    font-weight: 400;
     color: #0046FF;
     min-width: 72px;
+    height: 39px;
 }
 [lang="en"] .lang-toggle {
     padding: 6px 12px 10px 12px !important
@@ -250,7 +251,7 @@ body::before {
         width: calc(100% + 20px);
     }
     .coming-soon-card h1 {
-        font-size: 22px;
+        font-size: 24px;
     }
    .coming-soon-card p {
         font-size: 15px;
@@ -271,7 +272,12 @@ body::before {
 }
 
 [lang="en"] .lang-toggle {
-    font-family: 'kermes-light', 'Hind Madurai', sans-serif !important;
+    font-family: 'kermes-regular', 'Hind Madurai', sans-serif !important;
+    padding: 4px 12px 8px 12px !important;
+}
+
+[lang="ar"] .lang-toggle {
+    font-family: 'Hind Madurai', sans-serif !important;
 }
 
 [lang="ar"] .contact-us {
