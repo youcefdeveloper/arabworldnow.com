@@ -84,8 +84,7 @@ body::before {
     bottom: 60px;     /* GAP BOTTOM */
     left: 0;
     right: 0;
-    background-image: url('');
-    
+    background-image: url('/assets/images/arab_world_map.svg');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
